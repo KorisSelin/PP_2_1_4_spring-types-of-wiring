@@ -1,11 +1,7 @@
 package koschei.models;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-
 public class Duck5 {
-    private Egg6 egg;
+    private final Egg6 egg;
 
     public Duck5(Egg6 egg) {this.egg = egg;}
 
@@ -13,8 +9,4 @@ public class Duck5 {
     public String toString() {
         return ", в утке яйцо " + egg.toString();
     }
-//    @Autowired
-//    public void methodEgg (Egg6 egg6){
-//        this.egg = egg6;
-//    }
 }

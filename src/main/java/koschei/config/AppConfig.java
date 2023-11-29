@@ -3,7 +3,6 @@ package koschei.config;
 import koschei.models.Duck5;
 import koschei.models.Egg6;
 import koschei.models.Island2;
-import koschei.models.Rabbit4;
 import koschei.models.Wood3;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
