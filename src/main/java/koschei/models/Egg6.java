@@ -12,7 +12,7 @@ public class Egg6 {
         return ", в яйце иголка " + needle.toString();
     }
     @Autowired
-    public void setNeedle ( Needle7 needle7 ){
+    public void method ( Needle7 needle7 ){
         this.needle = needle7;
     }
 }

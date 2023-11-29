@@ -18,8 +18,8 @@ public class AppConfig {
         return new Island2(wood);
     }
 
-//    @Bean
-//    public static Rabbit4 getRabbit(Duck5 duck5) { return new Rabbit4(duck5)}
+    @Bean
+    public static Duck5 getRabbit(Egg6 egg) { return new Duck5(egg);}
 }
 
 
